@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js"></script>
+
+</head>
+
+<body class="main">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <div class="main-body">
+
+        <div class="calculator-display">
+            <div class="output">
+                <input type="text" id="screen">
+            </div>
+
+
+
+            <div class="calculator-keys">
+                <div class=right-keys>
+
+                    <button onclick="buttonclick('+')" class="btn keys">+</button>
+                    <button onclick="buttonclick('-')" class="btn keys">-</button>
+                    <button onclick="buttonclick('*')" class="btn keys">*</button>
+                    <button onclick="buttonclick(7)" class="btn key">7</button>
+                    <button onclick="buttonclick(8)" class="btn key">8</button>
+                    <button onclick="buttonclick(9)" class="btn key">9</button>
+                    <button onclick="buttonclick(4)" class="btn key">4</button>
+                    <button onclick="buttonclick(5)" class="btn key">5</button>
+                    <button onclick="buttonclick(6)" class="btn key">6</button>
+                    <button onclick="buttonclick(1)" class="btn key">1</button>
+                    <button onclick="buttonclick(2)" class="btn key">2</button>
+                    <button onclick="buttonclick(3)" class="btn key">3</button>
+                    <button onclick="buttonclick(0)" class="btn key">0</button>
+                </div>
+                <div class="left-keys">
+                    <button onclick="clearDisplay()" class="btn keys clear">C</button>
+                    <button onclick="buttonclick('/')" class="btn keys">÷</button>
+                    <button onclick="buttonclick('.')" class="btn decimal keys">.</button>
+                    <button onclick="equalClick()" class="btn equal">=</button>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
