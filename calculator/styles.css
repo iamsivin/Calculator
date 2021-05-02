@@ -17,7 +17,7 @@ html {
     left: 50px;
     width: 300px;
     background-color: white;
-    padding: 1rem;
+    padding: 10px;
     text-align: center;
     border-radius: 8px;
     box-shadow: 0 13px 27px -5px rgba(50, 50, 93, .25), 0 8px 16px -8px rgba(0, 0, 0, .3), 0 -6px 16px -6px rgba(0, 0, 0, .025);
